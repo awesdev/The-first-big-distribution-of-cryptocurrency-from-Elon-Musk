@@ -8,10 +8,10 @@
 }
 
 body {
-    background: #151515;
+    background: #0a0c16;
     color: #fff;
     line-height: 1.5;
-    font-family: "Gilroy", Arial, sans-serif;
+    font-family: "Inter", Arial, sans-serif;
     min-height: 100vh;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -40,7 +40,7 @@ a {
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: #FFA409
+    background-color: #096cff
 }
 
 ::-webkit-scrollbar-corner {
@@ -87,19 +87,20 @@ a {
 .section-title {
     font-size: 36px;
     line-height: 45px;
-    font-weight: bold
+    font-weight: 700
 }
 
 .section-title span {
-    color: #FFA409
+    color: #096cff
 }
 
 .section-subtitle {
-    font-weight: 500;
+    font-weight: 600;
     font-size: 18px;
     line-height: 22px;
     color: #fff;
-    margin-top: 20px
+    margin-top: 20px;
+    opacity: .6;
 }
 
 .navigation {
@@ -140,7 +141,7 @@ a {
 
 .navigation-nav a.active,
 .navigation-nav a:hover {
-    color: #FFA409
+    color: #096cff
 }
 
 .navigation-nav a:not(:last-child) {
@@ -148,7 +149,7 @@ a {
 }
 
 .notify {
-    background: rgba(255, 164, 9, 0.1);
+    background: rgb(9, 164, 255, 10%);
     padding: 15px 0
 }
 
@@ -187,7 +188,7 @@ a {
     font-weight: 600;
     font-size: 18px;
     line-height: 22px;
-    color: #FFA409
+    color: #096cff
 }
 
 .heading {
@@ -229,14 +230,16 @@ a {
 }
 
 .heading-caption span {
-    color: #FFA409
+    color: #096cff
 }
 
 .heading-subtitle {
     font-size: 23px;
     line-height: 130%;
     color: #fff;
-    margin: 35px 0 38px
+    margin: 12px 0 45px;
+    font-weight: 600;
+    opacity: .6;
 }
 
 .heading-buttons {
@@ -268,24 +271,24 @@ a {
 }
 
 .heading-button.red {
-    background: #EF6518;
-    -webkit-box-shadow: 0px 31.8559px 61.838px rgba(255, 164, 9, 0.25);
-    box-shadow: 0px 31.8559px 61.838px rgba(255, 164, 9, 0.25)
+    background: #096cff;
+    -webkit-box-shadow: 0px 31.8559px 61.838px rgb(9 108 255 / 25%);
+    box-shadow: 0px 31.8559px 61.838px rgb(9 108 255 / 25%)
 }
 
 .heading-button.orange {
-    background: #FFA409;
-    -webkit-box-shadow: 0px 31.8559px 61.838px rgba(255, 164, 9, 0.25);
-    box-shadow: 0px 31.8559px 61.838px rgba(255, 164, 9, 0.25)
+    background: #096cff;
+    -webkit-box-shadow: 0px 31.8559px 61.838px rgba(9, 108, 255, .25);
+    box-shadow: 0px 31.8559px 61.838px rgba(9, 108, 255, 0.25);
 }
 
 .heading-button.play {
-    background: rgba(255, 164, 9, 0.15);
-    border: 2.191px solid #FFA409;
+    background: rgba(9, 108, 255, 0.25);
+    border: 2.191px solid #096cff;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    -webkit-box-shadow: 0px 31.8559px 61.838px rgba(255, 164, 9, 0.25);
-    box-shadow: 0px 31.8559px 61.838px rgba(255, 164, 9, 0.25);
+    -webkit-box-shadow: 0px 31.8559px 61.838px rgba(9, 108, 255, 0.25);
+    box-shadow: 0px 31.8559px 61.838px rgba(9, 108, 255, 0.25);
     padding: 0;
     height: 68px;
     width: 68px;
@@ -334,27 +337,27 @@ a {
 }
 
 .information-item {
-    background: rgba(255, 255, 255, 0.05);
+    background: #101322;
     border-radius: 15px;
     width: 100%;
     padding: 40px
 }
 
 .information-item_title {
-    font-weight: 600;
+    font-weight: 700;
     font-size: 18px;
     line-height: 22px;
     margin: 25px 0 15px
 }
 
 .information-item_subtitle {
-    font-weight: 500;
+    font-weight: 600;
     font-size: 16px;
     line-height: 19px
 }
 
 .information-item_subtitle span {
-    color: #FFA409
+    color: #096cff
 }
 
 .information-item:not(:last-child) {
@@ -375,7 +378,7 @@ a {
     font-weight: 600;
     font-size: 18px;
     line-height: 150%;
-    color: #FFA409
+    color: #096cff
 }
 
 .participate-qr {
@@ -432,7 +435,7 @@ a {
 }
 
 .participate-status svg path {
-    fill: #0E7CB3
+    fill: #096cff
 }
 
 @-webkit-keyframes spin {
@@ -453,7 +456,7 @@ a {
     font-weight: 500;
     font-size: 14px;
     line-height: 150%;
-    color: #0E7CB3;
+    color: #096cff;
     margin-left: 6px
 }
 
@@ -467,7 +470,7 @@ a {
 }
 
 .participate-button {
-    background: #FFA409;
+    background: #096cff;
     -webkit-box-shadow: 0px 0px 42.8753px rgba(0, 209, 255, 0.1);
     box-shadow: 0px 0px 42.8753px rgba(0, 209, 255, 0.1);
     border-radius: 62.3641px;
@@ -527,7 +530,7 @@ a {
 
 .faq-item {
     width: 300px;
-    background: rgba(256, 256, 256, 0.05);
+    background: #101322;
     border-radius: 20px;
     padding: 35px 23px 25px;
     position: relative
@@ -562,7 +565,7 @@ a {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    background: #FFA409;
+    background: #096cff;
     border-radius: 250px;
     width: 120px;
     height: 120px;
@@ -583,7 +586,7 @@ a {
 }
 
 .transaction-address {
-    background: rgba(255, 255, 255, 0.05);
+    background: #101322;
     border-radius: 250px;
     text-align: center;
     padding: 20px;
@@ -641,7 +644,7 @@ a {
 }
 
 .calculator-title span {
-    color: #0E7CB3
+    color: #096cff
 }
 
 .calculator-input {
@@ -672,7 +675,7 @@ a {
     font-weight: bold;
     font-size: 24px;
     line-height: 30px;
-    color: #FFA409
+    color: #096cff
 }
 
 .calculator-query {
@@ -689,12 +692,12 @@ a {
 }
 
 .calculator-query button {
-    background: rgba(255, 164, 9, 0.1);
+    background: rgb(9, 164, 255, 10%);
     border-radius: 22.5px;
     font-weight: 600;
     font-size: 10px;
     line-height: 14px;
-    color: #FFA409;
+    color: #096cff;
     border: none;
     padding: 10px 15px;
     -webkit-transition: background-color .2s;
@@ -724,7 +727,7 @@ a {
 }
 
 .table-row {
-    background: rgba(255, 255, 255, 0.05);
+    background: #101322;
     border-radius: 25px;
     padding: 48px;
     width: 100%;
@@ -1149,7 +1152,8 @@ a {
     }
 
     .heading-caption {
-        font-size: 32px
+        font-size: 32px;
+        font-weight: 700;
     }
 
     .heading-subtitle {
