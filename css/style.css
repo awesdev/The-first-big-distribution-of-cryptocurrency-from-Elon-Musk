@@ -8,7 +8,7 @@
 }
 
 body {
-    background: #0E0E0E;
+    background: #151515;
     color: #fff;
     line-height: 1.5;
     font-family: "Gilroy", Arial, sans-serif;
@@ -98,14 +98,14 @@ a {
     font-weight: 500;
     font-size: 18px;
     line-height: 22px;
-    color: #0E0E0F;
+    color: #fff;
     margin-top: 20px
 }
 
 .navigation {
     height: 80px;
     width: 100%;
-    background: #0E0E0E
+    background: rgba(255, 255, 255, 0.05);
 }
 
 .navigation .container {
@@ -148,7 +148,7 @@ a {
 }
 
 .notify {
-    background: #FFA409;
+    background: rgba(255, 164, 9, 0.1);
     padding: 15px 0
 }
 
@@ -187,7 +187,7 @@ a {
     font-weight: 600;
     font-size: 18px;
     line-height: 22px;
-    color: #FFFFFF
+    color: #FFA409
 }
 
 .heading {
@@ -334,9 +334,7 @@ a {
 }
 
 .information-item {
-    background: #FFFFFF;
-    -webkit-box-shadow: 0px 17px 34px rgba(232, 242, 255, 0.56);
-    box-shadow: 0px 17px 34px rgba(232, 242, 255, 0.56);
+    background: rgba(255, 255, 255, 0.05);
     border-radius: 15px;
     width: 100%;
     padding: 40px
@@ -401,7 +399,7 @@ a {
 .participate-address p {
     font-size: 21px;
     line-height: 150%;
-    color: #0E0E0F;
+    color: #fff;
     font-weight: bold;
     white-space: nowrap;
     overflow: hidden;
@@ -434,7 +432,7 @@ a {
 }
 
 .participate-status svg path {
-    fill: #383F82
+    fill: #0E7CB3
 }
 
 @-webkit-keyframes spin {
@@ -455,7 +453,7 @@ a {
     font-weight: 500;
     font-size: 14px;
     line-height: 150%;
-    color: #383F82;
+    color: #0E7CB3;
     margin-left: 6px
 }
 
@@ -529,8 +527,7 @@ a {
 
 .faq-item {
     width: 300px;
-    background: -webkit-gradient(linear, left top, right top, from(#fff), color-stop(50%, #F3F4FF), to(#fff)), -webkit-gradient(linear, left top, right top, from(rgba(22, 19, 34, 0)), color-stop(50%, #161322), to(rgba(22, 19, 34, 0))), -webkit-gradient(linear, left top, right top, from(#191628), color-stop(50%, #161322), to(#191628));
-    background: linear-gradient(90deg, #fff 0%, #F3F4FF 50%, #fff 100%), linear-gradient(90deg, rgba(22, 19, 34, 0) 0%, #161322 50%, rgba(22, 19, 34, 0) 100%), linear-gradient(90deg, #191628 0%, #161322 50%, #191628 100%);
+    background: rgba(256, 256, 256, 0.05);
     border-radius: 20px;
     padding: 35px 23px 25px;
     position: relative
@@ -576,7 +573,7 @@ a {
     font-weight: 500;
     font-size: 16px;
     line-height: 150%;
-    color: #0E0E0F;
+    color: #fff;
     text-align: center;
     margin-top: 40px
 }
@@ -586,8 +583,7 @@ a {
 }
 
 .transaction-address {
-    background: -webkit-gradient(linear, left top, right top, from(#fff), color-stop(50%, #F4F5FF), to(#fff)), -webkit-gradient(linear, left top, right top, from(rgba(22, 19, 34, 0)), color-stop(50%, #161322), to(rgba(22, 19, 34, 0))), -webkit-gradient(linear, left bottom, left top, from(#051032), to(#051032)), -webkit-gradient(linear, left bottom, left top, from(#051032), to(#051032)), -webkit-gradient(linear, left top, left bottom, from(#070A0E), to(#0C1016));
-    background: linear-gradient(90deg, #fff 0%, #F4F5FF 50%, #fff 100%), linear-gradient(90deg, rgba(22, 19, 34, 0) 0%, #161322 50%, rgba(22, 19, 34, 0) 100%), linear-gradient(0deg, #051032, #051032), linear-gradient(0deg, #051032, #051032), linear-gradient(180deg, #070A0E 0%, #0C1016 100%);
+    background: rgba(255, 255, 255, 0.05);
     border-radius: 250px;
     text-align: center;
     padding: 20px;
@@ -618,7 +614,7 @@ a {
     font-weight: bold;
     font-size: 21px;
     line-height: 150%;
-    color: #0E0E0F;
+    color: #fff;
     white-space: nowrap;
     overflow-x: hidden;
     text-overflow: ellipsis
@@ -641,11 +637,11 @@ a {
     font-size: 16px;
     line-height: 19px;
     font-weight: bold;
-    color: #0E0E0F
+    color: #fff
 }
 
 .calculator-title span {
-    color: #383F82
+    color: #0E7CB3
 }
 
 .calculator-input {
@@ -655,6 +651,7 @@ a {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
+    color: #fff;
     border-bottom: 1px solid #E6E7FF;
     padding-bottom: 15px;
     margin-top: 50px
@@ -668,7 +665,7 @@ a {
     font-weight: bold;
     font-size: 24px;
     line-height: 30px;
-    color: #0E0E0F
+    color: #fff
 }
 
 .calculator-input p {
@@ -727,8 +724,7 @@ a {
 }
 
 .table-row {
-    background: -webkit-gradient(linear, left top, right top, from(#fff), color-stop(50%, #F4F5FF), to(#fff)), -webkit-gradient(linear, left top, right top, from(rgba(22, 19, 34, 0)), color-stop(50%, #161322), to(rgba(22, 19, 34, 0))), #051032;
-    background: linear-gradient(90deg, #fff 0%, #F4F5FF 50%, #fff 100%), linear-gradient(90deg, rgba(22, 19, 34, 0) 0%, #161322 50%, rgba(22, 19, 34, 0) 100%), #051032;
+    background: rgba(255, 255, 255, 0.05);
     border-radius: 25px;
     padding: 48px;
     width: 100%;
@@ -781,7 +777,7 @@ a {
 .table-row_hr {
     height: 1px;
     width: 100%;
-    background: #CDD4FF;
+    background: rgba(255, 255, 255, 0.1);
     border: none;
     margin: 32px 0
 }
@@ -806,7 +802,7 @@ a {
     text-overflow: ellipsis;
     font-size: 16px;
     line-height: 150%;
-    color: #0E0E0F
+    color: #fff
 }
 
 .table-row .address {
@@ -907,7 +903,8 @@ a {
 
 @media (max-width: 1600px) {
     .participate-address p {
-        max-width: 400px
+        max-width: 400px;
+        color: #fff;
     }
 }
 
